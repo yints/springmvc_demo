@@ -18,10 +18,10 @@ public class UserController {
     }
 
     //设置映射路径为/delete，即外部访问路径
-    @RequestMapping("/delete")
+    @RequestMapping("/share")
     @ResponseBody
     public String delete(){
-        System.out.println("user save ...");
+        System.out.println("user share ...");
         return "{'info':'springmvc'}";
     }
 }
