@@ -16,7 +16,7 @@ public class UserController {
         System.out.println("user save ...");
         return "{'info':'springmvc'}";
     }
-  int count = 3;
+  int count = 4;
     //设置映射路径为/delete，即外部访问路径
     @RequestMapping("/log")
     @ResponseBody
